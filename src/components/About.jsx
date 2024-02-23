@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 /* import aboutImg from "../assets/images/about.png";
  */const About = () => {
   const info = [
@@ -34,9 +33,10 @@ import { Link } from "react-router-dom"
               <br />
               <br />
               <div className="flex justify-center">
-                <Link to="./Resume.pdf">
+                {/* <a href="./src/assets/Resume.pdf" download> */}
+                <a href="./Resume.pdf" download>
                   <button className="btn-primary">Download CV</button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
